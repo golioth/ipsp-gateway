@@ -21,6 +21,13 @@ Install it with:
 $ go install github.com/golioth/ipsp-gateway
 ```
 
+Or you can download this git repo and compile if manually with:
+
+```
+$ go build main.go
+$ sudo ./main
+```
+
 After installing it, run the cli with `sudo`. `sudo` is required due to the kernel interaction for 6LoWPAN.
 
 ```
